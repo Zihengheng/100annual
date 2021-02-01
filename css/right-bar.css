@@ -1,0 +1,111 @@
+﻿.right-bar{
+	padding: 0px;
+	background-color: white;
+	position: fixed;
+	top: 380px;
+	right:1%;
+	margin-left: 610px;
+	width: 60px;
+	box-shadow: 1px 1px 7px 1px rgba(100,100,100,0.1);
+	z-index: 99;
+}
+.right-bar .item{
+	font-size: 13px;
+	/*padding: 47px 0 10px 0;*/
+	display: block;
+	text-align: center;
+	width: 60px;
+	height: 58px;
+	line-height: 16px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position:center 11px;
+}
+.right-bar .item.ol{
+	background-image: url(../images/zx-icon1.png);
+}
+.right-bar .item.qq{
+	background-image: url(../images/zx-icon2.png);
+}
+.right-bar .item.tel{
+	background-image: url(../images/zx-icon3.png);
+}
+.right-bar .item.top{
+	background-image: url(../images/zx-icon4.png);
+}
+.right-bar .item:hover{
+	background-color: #8264B4;
+}
+.right-bar .item.ol:hover{
+	background-image: url(../images/zx-icon1h.png);
+	background-position:center center;
+}
+.right-bar .item.qq:hover{
+	background-image: url(../images/zx-icon2h.png);
+	background-position:center center;
+}
+.right-bar .item.tel:hover{
+	background-image: url(../images/zx-icon3h.png);
+	background-position:center center;
+}
+.right-bar .item.top:hover{
+	background-image: url(../images/zx-icon4h.png);
+	background-position:center center;
+}
+
+.right-bar .item:after{
+    position: absolute;
+    bottom: -1px;
+    width: 50px;
+    left: 5px;
+    height: 1px;
+    background-color: #dfe0e0;
+    content:'';
+}
+/* .right-bar .item img{
+	width: 16px;
+	height: 16px;
+	margin: 0 auto;
+	display: block;
+} */
+.right-bar .item span.text{
+	font-size: 13px;
+	color: #8264b6;
+	line-height: 16px;
+	text-align: center;
+	
+}
+.right-bar .item:hover span.text{
+	color: #fff;
+}
+.right-bar .item:last-of-type{
+	border-bottom: 0;
+}
+.right-bar .item:last-of-type:after{
+	position:static;
+}
+.right-bar .tip{
+	position: absolute;
+	right:100%;
+	width: 200px;
+	padding: 21px 10px;
+	background-color: white;
+	top: 0;
+	display: none;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.1);
+}
+.right-bar .tip-img{
+	height: 170px;
+	width: 170px;
+	padding: 10px;
+}
+.right-bar .tip-img img{
+	width: 150px;
+	height: 150px;
+}
+.right-bar .item:hover .tip{
+	display: block;
+}
+.right-bar .tip strong{
+	color: #007AFF;
+}

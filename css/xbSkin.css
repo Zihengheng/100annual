@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+/* 版心宽 */
+.wrap {
+    width: 1200px;
+    margin: 0  auto;
+}
+
+.tpl-header,
+.tpl-banner,
+.tpl-content,
+.tpl-footer {
+    min-width: 1000px;
+}
+
+/* 顶部 */
+.tpl-header {
+    height: 100px;
+    background-color: #f9f9f9;
+}
+
+/* banner */
+.tpl-banner {
+    height: 200px;
+    background-color: #e4e4e4;
+}
+
+/* 主体内容 */
+.tpl-content {
+    background-color: #ccc;
+}
+
+/*============== 布局 使版权始终在最下方============= */
+html, body {
+    height: 100%;
+}
+
+#layout {
+    clear: both;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+
+    /*.tpl-footer底部高度+边框 负值根据实际修改*/
+    margin-bottom: -150px;
+}
+
+
+
+
+/*============== 布局 使底部始终在最下方============= */
+.tpl-footer {
+    background-color: #f9f9f9;
+}
+
+
+/* 返回顶部 */
+#return-top {
+  position: fixed;
+  right: 5.5%;
+  top: 90%;
+  display: none;
+  z-index: 99999;
+      _position: absolute;
+    _margin-top: 90%;
+    _bottom: auto;
+    _top: e­xpression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));
+}
+
+#return-top a {
+  background-image: url("../images/Back-to-the-top.png");
+  display: block;
+  width: 38px;
+  height: 38px;
+}
+
+#return-top a:hover {
+  background-position: 0px 38px;
+}
