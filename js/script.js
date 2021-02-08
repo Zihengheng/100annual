@@ -1,6 +1,8 @@
 $(function(){
-
+    //历史轨迹tab
     tabFunc(".history-con", ".ht-tab li", "cur", ".ht-tab-con", "active", "mousedown");
+    //党史人物tab
+    tabFunc(".figure-con", ".figure-tab li", "cur", ".figure-tab-con", "active", "mousedown");
    
 
     //轮播
