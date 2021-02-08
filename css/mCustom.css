@@ -14,7 +14,7 @@ img { border: 0; vertical-align: top; }
 .mar-1200 { width: 1200px; margin: 0 auto; }
 /*==================== 导航栏 start ================*/
 .tpl-banner { 
-	height: 1160px; 
+	height: 988px; 
 	background: url(../images/banner.png) no-repeat center 0px;
  }
 .mod-login-horizontal-s1 { line-height: 28px; margin-top: 9px; }
@@ -111,6 +111,13 @@ a.show-more{
 }
 a.show-more:hover{color:#c61e1a;}
 /*==================== 导航banner end ================*/
+
+/*==================== 主要内容 start ================*/
+.tpl-content{}
+
+.section-progress{height: 1720px;width:100%; background:url("../images/bg-section2.png") no-repeat center 0px;
+background-size:auto auto;}
+/*==================== 主要内容 end ================*/
 
 .tpl-footer{ height: 384px;background: #f6e9d8 url('../images/footer-bg.png') center 0 no-repeat;}
 .tpl-footer .wrap { padding-top: 240px; }
