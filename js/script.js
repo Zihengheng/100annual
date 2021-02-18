@@ -3,15 +3,38 @@ $(function(){
     tabFunc(".history-con", ".ht-tab li", "cur", ".ht-tab-con", "active", "mousedown");
     //党史人物tab
     tabFunc(".figure-con", ".figure-tab li", "cur", ".figure-tab-con", "active", "mousedown");
+    //重大事件tab
+    tabFunc(".event-con", ".event-tab li", "cur", ".event-intro", "active", "mousedown");
    
 
     //轮播
     var videoScroll1 = new LScroll();
-    videoScroll1.dom = $(".books .book-list");
+    videoScroll1.dom = $(".slides-con #eslide1");
     videoScroll1.speed = 5000;
-    $("img.go-left1").click(function () { videoScroll1.prev(); });
-    $("img.go-right1").click(function () { videoScroll1.next(); });
+    // $("img.go-left1").click(function () { videoScroll1.prev(); });
+    // $("img.go-right1").click(function () { videoScroll1.next(); });
     videoScroll1.tabmarq(0, 0, 1);
+
+    var videoScroll2 = new LScroll();
+    videoScroll2.dom = $(".slides-con #eslide2");
+    videoScroll2.speed = 5000;
+    // $("img.go-left1").click(function () { videoScroll1.prev(); });
+    // $("img.go-right1").click(function () { videoScroll1.next(); });
+    videoScroll2.tabmarq(0, 0, 1);
+
+    var videoScroll3 = new LScroll();
+    videoScroll3.dom = $(".lecture-con .l-slides");
+    videoScroll3.speed = 5000;
+    $(" .go-left").click(function () { videoScroll3.prev(); });
+    $(" .go-right").click(function () { videoScroll3.next(); });
+    videoScroll3.tabmarq(0, 0, 1);
+
+    var videoScroll4 = new LScroll();
+    videoScroll4.dom = $(".ach-slides .a-slides");
+    videoScroll4.speed = 5000;
+    $(" .ach-gol").click(function () { videoScroll4.prev(); });
+    $(" .ach-gor").click(function () { videoScroll4.next(); });
+    videoScroll4.tabmarq(0, 0, 1);
 
     placeholderFunc();//placeholder 兼容ie低版本
 

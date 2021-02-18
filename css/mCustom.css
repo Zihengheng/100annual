@@ -41,14 +41,7 @@ img { border: 0; vertical-align: top; }
 	margin-right: 5px;
 	display:inline-block;
 }
-.mod-login-horizontal-s1 .login-input{
-	border-radius:0px;
-	width: 107px;
-	height: 21px;
-	border:0px;
-	padding:0px;
-	margin-top: -3px;
-}
+.mod-login-horizontal-s1 .login-input{border-radius:0px;width: 107px;height: 21px;border:0px;padding:0px;margin-top: -3px;}
 .login-btn-login:hover, .login-btn-reg:hover{color:#f70;}
 /*==================== 导航栏 end ================*/
 
@@ -87,57 +80,35 @@ a.show-more:hover{color:#c61e1a;}
 /*==================== 首页主要内容 start ================*/
 .tpl-content{}
 
-/*庆祝活动内容*/
+/*========== 庆祝活动内容 ===========*/
 .cele-tit{width:100%; text-align:center;padding-top:64px; padding-bottom:36px;}
 .cele-content{width:100%;height:437px;background:url("../images/bg-cele.png") no-repeat center;}
-.cele-img{
-	float:left;
-	margin-top:23px;
-	margin-left:45px;
-}
+.cele-img{float:left;margin-top:23px;margin-left:45px;}
 .cele-text{width:505px; height:387px;float:right;margin-top:23px;padding-top:11px;}
 .subtit{width:178px; height:36px; background:url("../images/bg-tit.png") no-repeat left;background-size:178px auto;padding-left:26px;}
-.subtit span{
-	font-family: MicrosoftYaHei;
-	font-size: 16px;
-	font-weight:bold;
-	line-height:36px;
-	color: #ffdda2;
-}
-.cele-lists{
-	padding-top:40px;
-}
-.cele-lists li{
-	font-size: 15px;
-	line-height:30px;
-}
+.subtit span{font-family: MicrosoftYaHei;font-size: 16px;font-weight:bold;line-height:36px;color: #ffdda2;}
+.cele-lists{padding-top:40px;}
+.cele-lists li{font-size: 15px;line-height:30px;}
 .cele-lists li a{color:#000000;}
 .cele-lists li a:hover{color:#c61e1a}
 .cele-lists .show-more{margin-right:74px; margin-top:18px;}
 
-/*光辉历史内容*/
-.section-progress{height: 1510px;width:100%; background:url("../images/bg-section2.png") no-repeat center 0px;
-padding-top:215px;}
+/*========= 光辉历史内容 ==========*/
+.section-progress{height: 1364px;width:100%; background:url("../images/bg-section2.png") no-repeat center 0px;
+padding-top:209px;}
 .history-box{float:left; margin-left:-6px;}
 .ht-tab-con{display:none;}
 .ht-tab-con.active{display:block;}
-.history-con{
-	margin:25px 0px 36px 15px;
-	padding-top:32px;
-	padding-left:9px;
-	width:564px;
-	height:228px;
-	background:url("../images/bg-progress1.png") no-repeat;
-	background-size: 100% 100%;
-}
+.history-con{margin:25px 0px 36px 15px;padding-top:30px;padding-left:8px;width:564px;height:228px;background:url("../images/bg-progress1.png") no-repeat;/*	background-size: 100% 100%;*/}
 ul.ht-tab{float:left;width:185px;}
-ul.ht-tab li{font-family: MicrosoftYaHei;font-size: 14px;line-height:40px;}
+ul.ht-tab li{font-family: MicrosoftYaHei;font-size: 16px;margin-bottom:22px;}
 ul.ht-tab li a{color:#fff; font-weight:bold;}
 ul.ht-tab li a:hover, ul.ht-tab li.cur a{color:#fbdc0c;}
 .ht-tab-con{float:right;/*width:333px;*/margin-right:15px;}
-.ht-tab-con .bullet-points li{line-height:50px;}
+.ht-tab-con .bullet-points li{line-height:48px;}
 .ht-tab-con .bullet-points li a{color:#000000;font-size:14px;}
 .ht-tab-con .bullet-points li a:hover{color:#bb1119;}
+.ht-tab-con .show-more{margin-right:22px; margin-top:-1px;}
 
 
 .figure-box{float:left; margin-left:23px;}
@@ -149,7 +120,7 @@ ul.ht-tab li a:hover, ul.ht-tab li.cur a{color:#fbdc0c;}
 .figure-tab li a:hover, .figure-tab li.cur a{color:#ffdda2;}
 .figure-tab .first a{color:#ffdda2; margin-right:4px;}
 .divider{width:1px; height:23px; background-color: #bb1a20;display:block; float:right;
-		margin-top:12px; margin-left:11px;}
+		margin-top:12px; margin-left:9px;}
 .figure-tab-con{ display:none;}
 .figure-tab-con.active{display:block;}
 .pic-col{float:left; width:119px;}
@@ -159,7 +130,7 @@ ul.ht-tab li a:hover, ul.ht-tab li.cur a{color:#fbdc0c;}
 .figure-intro{width:100%; height:20px;line-height:20px;
 				position:absolute; top:59px;background-color: rgba(0,0,0,.5);
 				color:#fff;font-size: 14px;text-align:center;}
-.figure-box .show-more{margin-top:22px;}
+.figure-box .show-more{margin-top:15px;}
 
 
 .event-tab{height:34px; margin-top:16px;padding-left:28px;
@@ -167,9 +138,74 @@ ul.ht-tab li a:hover, ul.ht-tab li.cur a{color:#fbdc0c;}
 		  background-size:145px 34px;}
 .event-tab li{float:left;line-height:34px;}
 .event-tab li a{font-size:16px; line-height:34px; color:#bb1a20;}
+.event-tab li a:hover, .event-tab li.cur a{color:#ffdda2;}
 .event-tab li.first a{color:#ffdda2;}
 .event-tab li.first{width:116px;}
 .event-tab .show-more{margin-right:71px;}
+.event-intro{width:100%; margin-top:23px;display:none;position:relative;height:171px;}
+.event-intro.active{display:block;}
+.event-box .progress-tit{margin-left:-8px;}
+.slide-bg{z-index:11;position:absolute;top:0px; left:0px;}
+.slides-con{z-index:2;width:1077px;height:114px;overflow:hidden;position:absolute;top:27px;left:60px;}
+.event-slides li{float:left;width:135px;text-align:left;}
+.event-img{/*width:126px;*/ height:114px; text-align:center; background-color:pink;}
+
+
+.conference-box{margin-top:38px;width:561px;}
+.conference-box .show-more{margin-top:21px;}
+.conference-box .progress-tit{margin-left:-8px;}
+.conferences{padding-top:15px;padding-left:43px;margin-bottom:35px;}
+.conf{float:left; width:230px; height:122px;position:relative;
+		margin-top:10px;}
+.conf.left{margin-right:31px;}
+.conf img{width:100%; height:100%;}
+.conf-intro{width:100%;height:24px;line-height:24px;font-family: MicrosoftYaHei;
+			font-size: 14px;color: #ffffff;background-color:rgba(0,0,0,.5);
+		    position:absolute; top:100px;text-align:center;}
+.study-box{margin-top:35px; margin-left:46px;}
+.book{padding-top:26px; text-align:center;height:275px;
+		background:url("../images/study-ft.png") no-repeat;
+		background-position:12px 208px;}
+.knowledge-box{margin-top:35px; margin-left:31px;width:240px;}
+.kn-box{float:left; width:110px;margin-top:27px;}
+.kn-box.left{margin-right:11px;}
+.kn-box p{text-align:center;font-family: MicrosoftYaHei;font-size: 17px;letter-spacing: 1px;color: #000000;line-height:34px;}
+.kn-box img{margin-bottom:5px;}
+.knowledge-con{padding-top:5px;}
+
+.lecture{position:relative;}
+.lecture-con{margin-top:21px;margin-left:90px;overflow:hidden;width:1014px;height:148px;}
+.l-slides {/* width:1066px;position:relative; padding-left:39px;*/}
+.l-slides li{float:left;padding-right:10px;cursor: pointer;}
+.l-slides li:hover .l-slide-txt{background-color:#c71a10;}
+.l-slide-txt {width:154px; height:46px; background-color: #aeaeae;color:#fff;
+			font-family: MicrosoftYaHei;font-size: 15px;line-height:21px;
+			text-align:left; padding-left:5px;}
+.lecture .go-left {position:absolute; top:67px; left:48px;}
+.lecture .go-right {position:absolute; top:160px; left:1094px;}
+/*========= 光辉历史内容 end ==========*/
+
+/*========= 辉煌成就内容 start ==========*/
+.section-achievement{width:100%; height:990px; background:url("../images/bg-section3.jpg") no-repeat center 0px;
+					padding-top:170px;}
+.ach-con{position:relative;margin-bottom:36px;}
+.ach-gol{display:inline-block;float:left;width:43px;height:87px;background:url("../images/ach-gol.png") no-repeat;
+		position:absolute;;top:145px;left:0px;}
+.ach-gor{display:inline-block;float:right;width:43px;height:87px;background:url("../images/ach-gor.png") no-repeat;
+		position:absolute;top:145px;left:1152px;}
+.ach-slides{margin-left:60px; width:1091px;height:345px;overflow:hidden;padding:5px;}
+.a-slides li{float:left;padding-right:7px;}
+.ach-box{margin-top:38px;width: 349px;height: 304px;box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.22);}
+#ach-box1{background:url("../images/ach-bg1.png") no-repeat -7px 0px; background-size:364px;}
+#ach-box2{background:url("../images/ach-bg2.png") no-repeat -7px 0px; background-size:364px;}
+#ach-box3{margin-top:25px;background:url("../images/ach-bg3.png") no-repeat -7px 0px; background-size:364px 324px;height:318px;}
+#ach-box4{background:url("../images/ach-bg2.png") no-repeat -7px 0px; background-size:364px;}
+
+.guide-tab-con{width:379px; height:218px; background:url("../images/ach-bg4.png") no-repeat;
+				float:left; margin-top:53px;
+				}
+.guide-intro{}
+/*========= 辉煌成就内容 end ==========*/
 /*==================== 首页主要内容 end ================*/
 
 .tpl-footer{ height: 384px;background: #f6e9d8 url('../images/footer-bg.png') center 0 no-repeat;}
