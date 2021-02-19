@@ -5,6 +5,8 @@ $(function(){
     tabFunc(".figure-con", ".figure-tab li", "cur", ".figure-tab-con", "active", "mousedown");
     //重大事件tab
     tabFunc(".event-con", ".event-tab li", "cur", ".event-intro", "active", "mousedown");
+    //指导思想tab
+    tabFunc(".guide-con", ".guide-tabs li", "cur", ".guide-intro", "active", "mousedown");
    
 
     //轮播

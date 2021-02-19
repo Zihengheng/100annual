@@ -57,23 +57,12 @@ img { border: 0; vertical-align: top; }
 .col-search{ padding:49px 0 0 0;}
 .mod-search-singlebox-s1{width: 534px;height: 46px;box-shadow: 0px 2px 4px 0px rgba(142, 140, 140, 0.27);border: none;margin:0 auto;padding-right:0;padding-left:0;}
 .mod-search-singlebox-s1 .secx{box-shadow:none;border:none;height: 46px;padding-right:103px;background:#fff;}
-.mod-search-singlebox-s1 .secx .pholder{font-size: 16px;color:#888686;height: 46px;line-height: 46px;left:17px;}
+.mod-search-singlebox-s1 .secx .pholder{font-size:14px;color:#999999;height: 46px;line-height: 46px;left:17px;}
 .mod-search-singlebox-s1 .secx .inputtext{padding-left:17px;height: 46px;line-height: 46px\9;width: 91%;font-size: 14px; color:#999999;}
 .mod-search-singlebox-s1 .secbtn{background:#db1d0d;font-size: 16px;color:#fff;text-align:center;height: 46px;line-height: 46px\9;width: 88px;text-indent:0;}
 /*列表样式*/
-.bullet-points li{
-	padding-left:16px;
-	background:url("../images/list-icon1.png") no-repeat left;
-	background-size: 6px 13px;
-	font-family: MicrosoftYaHei;
-}
-a.show-more{
-	font-family: MicrosoftYaHei;
-	font-size: 12px;
-	line-height: 24px;
-	color: #e09b0a;
-	float:right;
-}
+.bullet-points li{padding-left:16px;background:url("../images/list-icon1.png") no-repeat left;background-size: 6px 13px;font-family: MicrosoftYaHei;}
+a.show-more{font-family: MicrosoftYaHei;font-size: 12px;line-height: 24px;color: #e09b0a;float:right;}
 a.show-more:hover{color:#c61e1a;}
 /*==================== 导航banner end ================*/
 
@@ -154,14 +143,14 @@ ul.ht-tab li a:hover, ul.ht-tab li.cur a{color:#fbdc0c;}
 .conference-box{margin-top:38px;width:561px;}
 .conference-box .show-more{margin-top:21px;}
 .conference-box .progress-tit{margin-left:-8px;}
-.conferences{padding-top:15px;padding-left:43px;margin-bottom:35px;}
+.conferences{padding-top:15px;padding-left:35px;margin-bottom:35px;}
 .conf{float:left; width:230px; height:122px;position:relative;
 		margin-top:10px;}
 .conf.left{margin-right:31px;}
 .conf img{width:100%; height:100%;}
 .conf-intro{width:100%;height:24px;line-height:24px;font-family: MicrosoftYaHei;
 			font-size: 14px;color: #ffffff;background-color:rgba(0,0,0,.5);
-		    position:absolute; top:100px;text-align:center;}
+		    position:absolute; top:100px;text-align:center;font-weight:bold;}
 .study-box{margin-top:35px; margin-left:46px;}
 .book{padding-top:26px; text-align:center;height:275px;
 		background:url("../images/study-ft.png") no-repeat;
@@ -171,7 +160,7 @@ ul.ht-tab li a:hover, ul.ht-tab li.cur a{color:#fbdc0c;}
 .kn-box.left{margin-right:11px;}
 .kn-box p{text-align:center;font-family: MicrosoftYaHei;font-size: 17px;letter-spacing: 1px;color: #000000;line-height:34px;}
 .kn-box img{margin-bottom:5px;}
-.knowledge-con{padding-top:5px;}
+.knowledge-con{padding-top:5px; padding-left:8px;}
 
 .lecture{position:relative;}
 .lecture-con{margin-top:21px;margin-left:90px;overflow:hidden;width:1014px;height:148px;}
@@ -186,11 +175,11 @@ ul.ht-tab li a:hover, ul.ht-tab li.cur a{color:#fbdc0c;}
 /*========= 光辉历史内容 end ==========*/
 
 /*========= 辉煌成就内容 start ==========*/
-.section-achievement{width:100%; height:990px; background:url("../images/bg-section3.jpg") no-repeat center 0px;
+.section-achievement{width:100%; height:880px; background:url("../images/bg-section3.jpg") no-repeat center 0px;
 					padding-top:170px;}
 .ach-con{position:relative;margin-bottom:36px;}
 .ach-gol{display:inline-block;float:left;width:43px;height:87px;background:url("../images/ach-gol.png") no-repeat;
-		position:absolute;;top:145px;left:0px;}
+		position:absolute;top:145px;left:0px;}
 .ach-gor{display:inline-block;float:right;width:43px;height:87px;background:url("../images/ach-gor.png") no-repeat;
 		position:absolute;top:145px;left:1152px;}
 .ach-slides{margin-left:60px; width:1091px;height:345px;overflow:hidden;padding:5px;}
@@ -202,11 +191,80 @@ ul.ht-tab li a:hover, ul.ht-tab li.cur a{color:#fbdc0c;}
 #ach-box4{background:url("../images/ach-bg2.png") no-repeat -7px 0px; background-size:364px;}
 
 .guide-tab-con{width:379px; height:218px; background:url("../images/ach-bg4.png") no-repeat;
-				float:left; margin-top:53px;
-				}
-.guide-intro{}
+				float:left; margin-top:53px;}
+.guide-intro{float:left;width:755px;height:321px;background:url("../images/ach-bg5.png") no-repeat;
+			margin-left:13px; margin-top:5px; display:none;
+			 padding:20px 12px 20px 22px;} 
+.guide-intro.active{display:block;}
+.guide-tabs{margin-top:20px; margin-left:34px;}
+.guide-tabs li{float:left;width: 51px;height: 179px;text-align:center;padding-top:10px;}
+.guide-tabs li a{font-family: MicrosoftYaHei;font-size: 16px;line-height:20px;letter-spacing: 1px;color: #000000;
+				display:inline-block; width:16px;}
+.guide-tabs li.cur a, .guide-tabs li a:hover{color:#b50b0b;}
+.guide-tabs li a.multi{width:41px;}
+.guide-tabs li a.tab{line-height:16px;}
+.guide-tit{width: 371px;height: 36px;background:url("../images/ach-tit3.png") no-repeat;}
+.guide-tit span{font-family: MicrosoftYaHei;font-size: 18px;line-height:36px;letter-spacing: 1px;color:#ffdda2;
+				padding-left:20px; font-weight:bold;}
+.guide-book{float:left;margin-top:12px;}
+.guide-subtit{width: 110px;height: 28px; background:url("../images/ach-tit4.png") no-repeat;}
+.guide-subtit span{font-family: MicrosoftYaHei;font-size: 17px;line-height:28px;
+					letter-spacing: 1px;color:#ffdda2;padding-left:14px;}
+.guide-refer{float:left;margin-top:14px;width:322px;}
+.guide-slides{margin-top:28px; width:432px;height:105px; overflow:hidden;}
+.g-slides li{float:left;margin-right:11px;}
+.gbook-img {float:left;}
+.gbook-info {width:128px;float:left;margin-left:7px;font-family: MicrosoftYaHei;}
+.gbook-tit{font-size:12px;line-height:16px;letter-spacing: 1px;color: #000000;font-weight:bold;}
+.gbook-author{color: #666666;line-height:16px; margin-top:9px;font-size:12px;}
 /*========= 辉煌成就内容 end ==========*/
+
+/*========= 宝贵经验内容 start ==========*/
+.section-experience{width:100%;height:540px; background:url("../images/bg-section4.png") no-repeat center 0px;
+					padding-top:270px;}
+.experience-con{width:720px; margin:0 auto;}
+.experience-box{float:left; width:360px;}
+.experience-box.right ul{padding-left:120px;}
+.experience-list li{line-height:42px;padding-left:20px; background:url("../images/list-icon2.png") no-repeat left;}
+.experience-list li a{font-family: MicrosoftYaHei;font-size: 14px;color:#000;}
+.experience-list li a:hover{color:#c62418;}
+.experience-box a.show-more{margin-right:-66px;}
+/*========= 宝贵经验内容 end ==========*/
+
+/*========= 历史使命内容 start ==========*/
+.section-vision{width:100%;height:380px; background:url("../images/bg-section5.png") no-repeat center 0px;
+				padding-top:205px;}
+.vision-con{width: 803px;height: 354px;background:url("../images/vision-bg1.png") no-repeat 0px 0px;
+			margin-left:402px;padding-top:18px;padding-left:26px;}
+.vision-box{width:370px;float:left;margin-right:28px;}
+.vision-tit span{font-family: SimSun;font-size: 20px;line-height: 32px;color: #ffffff;
+				font-weight:bold;}
+#vision-tit1{padding-left:73px;}
+.vbox-con{margin-top:66px;}
+/*========= 历史使命内容 end ==========*/
+
+/*========= 光明未来内容 start ==========*/
+.section-expectation{width:100%;height:459px; background:url("../images/bg-section6.png") no-repeat center -30px;
+					padding-top:185px;}
+.future-col{width:385px; height:400px; float:left;text-align:center;}
+.future-col.lt{margin-right:20px;}
+.future-tit {width:330px; height:34px; margin:0 auto; position:relative;}
+#future-tit1 {background: url("../images/future-tit3.png") no-repeat center 0px;}
+#future-tit2 {background:url("../images/future-tit1.png") no-repeat center 0px;}
+#future-tit3 {background:url("../images/future-tit2.png") no-repeat center 0px;}
+.future-tit span {position:absolute;top:21px;font-family: MicrosoftYaHei;
+				   font-size:18px;letter-spacing: 1px;color: #ffffff; font-weight:bold;
+				   width:300px; left:15px;}
+.future-box {margin-top:28px;width:386px; height:306px;} 
+#fbox-1 {background:url("../images/future-bg1.png") no-repeat center 0px;}
+#fbox-2 {background:url("../images/future-bg2.png") no-repeat center 0px;}
+#fbox-3 {background:url("../images/future-bg3.png") no-repeat center 0px;}
+/*========= 光明未来内容 end ==========*/
 /*==================== 首页主要内容 end ================*/
+
+
+/*==================== 二级页面主要内容 start ================*/
+/*==================== 二级页面主要内容 end ================*/
 
 .tpl-footer{ height: 384px;background: #f6e9d8 url('../images/footer-bg.png') center 0 no-repeat;}
 .tpl-footer .wrap { padding-top: 240px; }
