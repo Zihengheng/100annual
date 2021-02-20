@@ -24,12 +24,14 @@
     height: 200px;
     background-color: #e4e4e4;
 }
-
 /* 主体内容 */
 .tpl-content {
     background-color: #ccc;
 }
-
+* {box-sizing:border-box;
+  -moz-box-sizing: border-box;
+  　　-webkit-box-sizing: border-box;
+  　　box-sizing: border-box;}
 /*============== 布局 使版权始终在最下方============= */
 html, body {
     height: 100%;
@@ -44,9 +46,6 @@ html, body {
     /*.tpl-footer底部高度+边框 负值根据实际修改*/
     margin-bottom: -150px;
 }
-
-
-
 
 /*============== 布局 使底部始终在最下方============= */
 .tpl-footer {

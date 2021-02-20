@@ -83,25 +83,25 @@ a.show-more:hover{color:#c61e1a;}
 .cele-lists .show-more{margin-right:74px; margin-top:18px;}
 
 /*========= 光辉历史内容 ==========*/
-.section-progress{height: 1364px;width:100%; background:url("../images/bg-section2.png") no-repeat center 0px;
+.section-progress{height: 1575px;width:100%; background:url("../images/bg-section2.png") no-repeat center 0px;
 padding-top:209px;}
 .history-box{float:left; margin-left:-6px;}
 .ht-tab-con{display:none;}
 .ht-tab-con.active{display:block;}
-.history-con{margin:25px 0px 36px 15px;padding-top:30px;padding-left:8px;width:564px;height:228px;background:url("../images/bg-progress1.png") no-repeat;/*	background-size: 100% 100%;*/}
+.history-con{margin:25px 0px 36px 15px;padding-top:30px;padding-left:8px;width:564px;height:250px;background:url("../images/bg-progress1.png") no-repeat;/*	background-size: 100% 100%;*/}
 ul.ht-tab{float:left;width:185px;}
 ul.ht-tab li{font-family: MicrosoftYaHei;font-size: 16px;margin-bottom:22px;}
 ul.ht-tab li a{color:#fff; font-weight:bold;}
 ul.ht-tab li a:hover, ul.ht-tab li.cur a{color:#fbdc0c;}
 .ht-tab-con{float:right;/*width:333px;*/margin-right:15px;}
-.ht-tab-con .bullet-points li{line-height:48px;}
+.ht-tab-con .bullet-points li{line-height:45px;}
 .ht-tab-con .bullet-points li a{color:#000000;font-size:14px;}
 .ht-tab-con .bullet-points li a:hover{color:#bb1119;}
 .ht-tab-con .show-more{margin-right:22px; margin-top:-1px;}
 
 
 .figure-box{float:left; margin-left:23px;}
-.figure-con{padding-top:42px;}
+.figure-con{padding-top:39px;}
 .figure-tab{background:url("../images/bg-tit.png") no-repeat left;padding-left:15px;}
 .figure-tab li{float:left; font-family: MicrosoftYaHei;font-size: 16px; line-height:45px;
 				padding-left:11px;}
@@ -119,7 +119,7 @@ ul.ht-tab li a:hover, ul.ht-tab li.cur a{color:#fbdc0c;}
 .figure-intro{width:100%; height:20px;line-height:20px;
 				position:absolute; top:59px;background-color: rgba(0,0,0,.5);
 				color:#fff;font-size: 14px;text-align:center;}
-.figure-box .show-more{margin-top:15px;}
+.figure-box .show-more{margin-top:12px;margin-bottom:-5px;}
 
 
 .event-tab{height:34px; margin-top:16px;padding-left:28px;
@@ -130,8 +130,9 @@ ul.ht-tab li a:hover, ul.ht-tab li.cur a{color:#fbdc0c;}
 .event-tab li a:hover, .event-tab li.cur a{color:#ffdda2;}
 .event-tab li.first a{color:#ffdda2;}
 .event-tab li.first{width:116px;}
-.event-tab .show-more{margin-right:71px;}
-.event-intro{width:100%; margin-top:23px;display:none;position:relative;height:171px;}
+
+.event-intro .show-more{margin-top:-55px;margin-right:66px;}
+.event-intro{width:100%; margin-top:23px;display:none;position:relative;height:171px;left:-8px;}
 .event-intro.active{display:block;}
 .event-box .progress-tit{margin-left:-8px;}
 .slide-bg{z-index:11;position:absolute;top:0px; left:0px;}
@@ -167,7 +168,7 @@ ul.ht-tab li a:hover, ul.ht-tab li.cur a{color:#fbdc0c;}
 .l-slides {/* width:1066px;position:relative; padding-left:39px;*/}
 .l-slides li{float:left;padding-right:10px;cursor: pointer;}
 .l-slides li:hover .l-slide-txt{background-color:#c71a10;}
-.l-slide-txt {width:154px; height:46px; background-color: #aeaeae;color:#fff;
+.l-slide-txt {width:159px; height:46px; background-color: #aeaeae;color:#fff;
 			font-family: MicrosoftYaHei;font-size: 15px;line-height:21px;
 			text-align:left; padding-left:5px;}
 .lecture .go-left {position:absolute; top:67px; left:48px;}
@@ -175,7 +176,7 @@ ul.ht-tab li a:hover, ul.ht-tab li.cur a{color:#fbdc0c;}
 /*========= 光辉历史内容 end ==========*/
 
 /*========= 辉煌成就内容 start ==========*/
-.section-achievement{width:100%; height:880px; background:url("../images/bg-section3.jpg") no-repeat center 0px;
+.section-achievement{width:100%; height:998px; background:url("../images/bg-section3.jpg") no-repeat center 0px;
 					padding-top:170px;}
 .ach-con{position:relative;margin-bottom:36px;}
 .ach-gol{display:inline-block;float:left;width:43px;height:87px;background:url("../images/ach-gol.png") no-repeat;
@@ -210,9 +211,13 @@ ul.ht-tab li a:hover, ul.ht-tab li.cur a{color:#fbdc0c;}
 .guide-subtit{width: 110px;height: 28px; background:url("../images/ach-tit4.png") no-repeat;}
 .guide-subtit span{font-family: MicrosoftYaHei;font-size: 17px;line-height:28px;
 					letter-spacing: 1px;color:#ffdda2;padding-left:14px;}
-.guide-refer{float:left;margin-top:14px;width:322px;}
+.guide-refer{float:left;margin-top:14px;width:285px;}
 .guide-slides{margin-top:28px; width:432px;height:105px; overflow:hidden;}
-.g-slides li{float:left;margin-right:11px;}
+.g-slides li{float:left;margin-right:11px;height:110px;}
+.guide-slide-btns {width:120px; margin:25px auto 0px auto;}
+.guide-slide-btns a {display:inline-block;}
+.guide-slide-btns .gleft {margin-right:29px;width: 35px;height: 21px;background:url("../images/ach-gol2.png") no-repeat center;}
+.guide-slide-btns .gright {width: 35px;height: 21px;background:url("../images/ach-gor2.png") no-repeat center;}
 .gbook-img {float:left;}
 .gbook-info {width:128px;float:left;margin-left:7px;font-family: MicrosoftYaHei;}
 .gbook-tit{font-size:12px;line-height:16px;letter-spacing: 1px;color: #000000;font-weight:bold;}
@@ -220,7 +225,7 @@ ul.ht-tab li a:hover, ul.ht-tab li.cur a{color:#fbdc0c;}
 /*========= 辉煌成就内容 end ==========*/
 
 /*========= 宝贵经验内容 start ==========*/
-.section-experience{width:100%;height:540px; background:url("../images/bg-section4.png") no-repeat center 0px;
+.section-experience{width:100%;height:795px; background:url("../images/bg-section4.png") no-repeat center 0px;
 					padding-top:270px;}
 .experience-con{width:720px; margin:0 auto;}
 .experience-box{float:left; width:360px;}
@@ -232,11 +237,11 @@ ul.ht-tab li a:hover, ul.ht-tab li.cur a{color:#fbdc0c;}
 /*========= 宝贵经验内容 end ==========*/
 
 /*========= 历史使命内容 start ==========*/
-.section-vision{width:100%;height:380px; background:url("../images/bg-section5.png") no-repeat center 0px;
+.section-vision{width:100%;height:589px; background:url("../images/bg-section5.png") no-repeat center 0px;
 				padding-top:205px;}
 .vision-con{width: 803px;height: 354px;background:url("../images/vision-bg1.png") no-repeat 0px 0px;
 			margin-left:402px;padding-top:18px;padding-left:26px;}
-.vision-box{width:370px;float:left;margin-right:28px;}
+.vision-box{width:360px;float:left;margin-right:28px;}
 .vision-tit span{font-family: SimSun;font-size: 20px;line-height: 32px;color: #ffffff;
 				font-weight:bold;}
 #vision-tit1{padding-left:73px;}
@@ -244,7 +249,7 @@ ul.ht-tab li a:hover, ul.ht-tab li.cur a{color:#fbdc0c;}
 /*========= 历史使命内容 end ==========*/
 
 /*========= 光明未来内容 start ==========*/
-.section-expectation{width:100%;height:459px; background:url("../images/bg-section6.png") no-repeat center -30px;
+.section-expectation{width:100%;height:636px; background:url("../images/bg-section6.png") no-repeat center -30px;
 					padding-top:185px;}
 .future-col{width:385px; height:400px; float:left;text-align:center;}
 .future-col.lt{margin-right:20px;}
@@ -264,8 +269,222 @@ ul.ht-tab li a:hover, ul.ht-tab li.cur a{color:#fbdc0c;}
 
 
 /*==================== 二级页面主要内容 start ================*/
-/*==================== 二级页面主要内容 end ================*/
+/*=== banner ===*/
+.menu-divider {padding-top:40px;width:100%;height:145px;}
+.sp-layout .tpl-banner {height:1170px; background:url("../images/banner-2.png") no-repeat center 0px;}
+.sp-layout .mod-search-singlebox-s1{height:41px;}
+.sp-layout .mod-search-singlebox-s1 .secx{height:41px;}
+.sp-layout .mod-search-singlebox-s1 .secx .pholder{line-height:41px;}
+.sp-layout .mod-search-singlebox-s1 .secx .inputtext{height:41px;}
+.sp-layout .mod-search-singlebox-s1 .secbtn{height:41px; line-height:41px;}
 
+.back-to-hp {width:119px; height:30px; float:right; margin-bottom:29px;}
+.back-to-hp a i{width:100%; height:100%; display:block;background:url("../images/goback.png") no-repeat center;}
+/*=== layout ===*/
+#layout.sp-layout {position:relative; margin-bottom:-70px;}
+.sp-layout .tpl-content{position:absolute;top:240px;background:none;left:50%;
+						transform: translateX(-50%);
+						-ms-transform: translateX(-50%);
+						-moz-transform: translateX(-50%);
+						-webkit-transform: translateX(-50%);
+						-o-transform: translateX(-50%);}
+
+/*=============== 宝贵经验 start ==============*/
+.section-exp {width:100%; height:868px; background:url("../images/bg-sp.png") no-repeat center 0px;
+				background-size:100% 100%;padding-top:20px;}
+.leftbar {width:256px; float:left;background:url("../images/bg-leftbar.png") no-repeat center 0px;
+			padding-top:24px;padding-left:17px;padding-right:20px;text-align:center;}
+.rightbar {width:869px; float:left; margin-left:14px;}
+.section-con {padding:24px 30px;}
+.menu-tab-con {display:none;}
+.menu-tab-con.active {display:block;}
+
+.lf-tit {font-family: FZTYSJW--GB1-0;font-size: 18px;line-height: 56px;letter-spacing: 1px;color: #ffffff;}
+.lf-menu-tabs li {width: 222px;height: 49px;background-color: #f2f2f2;text-align:left;padding-left:13px;margin-bottom:1px;}
+.lf-menu-tabs a {display:inline-block; width:100%;height:100%;}
+.lf-menu-tabs span {font-family: MicrosoftYaHei;font-size: 14px;line-height:49px;color: #000000;}
+.lf-menu-tabs li.multi span {line-height:20px;}
+.lf-menu-tabs li.multi a{padding-top:5px;}
+.lf-menu-tabs li.multi i {margin-top:-5px;}
+.lf-menu-tabs i {display:block; width:17px; height:16px; float:right;background:url("../images/bg-col2.png") no-repeat center;
+				margin-top:16px; margin-right:3px;}
+
+.lf-menu-tabs li:hover, .lf-menu-tabs li.cur {background-color:#fcdadb;}
+.lf-menu-tabs li:hover span, .lf-menu-tabs li.cur span {color:#c83d2c;font-weight:bold;}
+.lf-menu-tabs li:hover i, .lf-menu-tabs li.cur i {background:url("../images/bg-col.png") no-repeat center;}
+
+.tab-intro {width:869px; height:249px; background-color:#fff; box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.08);
+			padding-top:31px;}
+.related-resources {margin-top:21px;width:869px; height:506px; background-color:#fff; box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.08);
+			padding-top:40px;}
+.tab-intro-tit {width:350px; text-align:center;font-family: MicrosoftYaHei;font-size: 18px;line-height: 23px;
+				letter-spacing: 1px;color: #ca3825;font-weight:bolder; margin:0 auto;}
+.tab-intro-con {width:803px; margin:0 auto;padding-top:30px;
+				text-indent:2em;font-family: MicrosoftYaHei;font-size: 16px;line-height: 28px;letter-spacing: 1px;color: #000000;}
+.rr-tit {width:300px;text-align:center;font-family: MicrosoftYaHei;font-size: 18px;line-height: 23px;
+		letter-spacing: 1px;color: #ca3825;font-weight:bolder; margin:0 auto;}
+.rr-con {padding-top:51px; width:803px; margin:0 auto;}
+/*=============== 宝贵经验 end ==============*/
+
+/*=============== 教育活动 start ==============*/
+.section-edu {width:100%; height:868px; background:url("../images/bg-sp.png") no-repeat center 0px;
+				background-size:100% 100%;padding-top:20px;}
+.section-edu .tab-intro {height:264px;}
+.section-edu .related-resources {height:491px;}
+.tab-intro-pic {float:left; margin-left:15px; margin-top:36px;width: 218px;height: 147px;}
+.tab-intro-pic img {width:100%; height:100%;}
+.tab-intro-con.wpic {float:left; width:604px; margin-left:16px;font-size:14px; line-height:27px;}
+/*=============== 教育活动 end ==============*/
+
+/*=============== 经典战役 start ==============*/
+#event-banner {height:1070px;}
+.section-event {width:100%; height:770px; background:url("../images/bg-sp.png") no-repeat center 0px;
+				background-size:100% 100%;padding-top:20px;}
+.section-event .tab-intro {height:264px;}
+.section-event .related-resources {height:392px;}
+/*=============== 经典战役 end ==============*/
+
+/*=============== 历届党代会 start ==============*/
+#conf-banner {height:1748px;}
+.section-conf {width:100%; background:url("../images/bg-sp.png") no-repeat center 0px;
+				background-size:100% 100%;padding-top:20px;}
+.section-conf .tab-intro {height:264px;}
+.section-conf .related-resources {height:392px;}
+
+.conf-subtabs li {width: 222px;height: 49px;background-color: #f2f2f2;text-align:left;padding-left:23px;margin-bottom:1px;}
+.conf-subtabs a {display:inline-block; width:100%;height:100%;}
+.conf-subtabs span {font-family: MicrosoftYaHei;font-size: 14px;line-height:49px;color: #000000;}
+.conf-subtabs li.multi span {line-height:20px;}
+.conf-subtabs li.multi a{padding-top:5px;}
+.conf-subtabs li.multi i {margin-top:-5px;}
+.conf-subtabs i {display:block; width:17px; height:16px; float:right;background:url("../images/bg-col2.png") no-repeat center;
+				margin-top:16px; margin-right:3px;}
+
+.conf-subtabs li:hover, .conf-subtabs li.cur {background-color:#fcdadb;}
+.conf-subtabs li:hover span, .conf-subtabs li.cur span {color:#c83d2c;font-weight:bold;}
+.conf-subtabs li:hover i, .conf-subtabs li.cur i {background:url("../images/bg-col.png") no-repeat center;}
+
+.conf-menu-tabs dd div {width: 222px;height: 49px;background-color: #f2f2f2;text-align:left;padding-left:8px;margin-bottom:1px;}
+.conf-menu-tabs dd div a {display:inline-block; width:100%; height:100%; line-height:49px;} 
+.conf-menu-tabs .toggle-icon{display:inline-block; width:12px; height:8px; background:url("../images/toggle-1.png") no-repeat center;margin-right:6px;}
+.conf-menu-tabs span {font-family: MicrosoftYaHei;font-size: 14px;line-height:49px;color: #000000;}
+.conf-menu-tabs .menu-icon {display:inline-block; width:17px; height:16px; float:right;background:url("../images/bg-col2.png") no-repeat center;margin-top:16px; margin-right:10px}
+.conf-subtabs i {margin-right:10px;}
+
+.conf-menu-tabs dd div:hover, .conf-menu-tabs dd.unfold div {background-color:#fcdadb;}
+.conf-menu-tabs dd div:hover span, .conf-menu-tabs dd.unfold div span {color:#c83d2c;font-weight:bold;}
+.conf-menu-tabs dd div:hover .toggle-icon, .conf-menu-tabs dd.unfold .toggle-icon {background:url("../images/toggle-2.png") no-repeat center;}
+.conf-menu-tabs dd div:hover .menu-icon, .conf-menu-tabs dd.unfold .menu-icon {background:url("../images/bg-col.png") no-repeat center;}
+
+.conf-subtabs {display:none;}
+.subtab-con {display:none;}
+.subtab-con.active {display:block;}
+.conf-menu-tabs dd.unfold .conf-subtabs {display:block;}
+
+.section-conf .rightbar {background:url("../images/conf-bg.png") no-repeat center 0px;
+                         background-size:100% 100%;min-height: 1343px;
+						padding:23px 42px 37px 42px;}
+.position {height:64px;line-height:64px;margin-left:35px;}
+.position span {font-family: MicrosoftYaHei;font-size: 16px;font-weight:bold;color: #ffffff;}
+.position em {font-family: MicrosoftYaHei;font-size: 16px;font-weight:bold;color:#f3cb10;font-style:normal;}
+.position i {font-family: MicrosoftYaHei;font-size: 16px;font-weight:bold;color:#fff;
+			margin-left:11px;margin-right:8px;}
+
+.conf-con {padding-top:27px;}
+.intro-pic {width: 391px; height: 246px; margin:0 auto;}
+.intro-pic img {width:100%; height:100%;}
+.intro-tit {text-align:center;font-family: MicrosoftYaHei;font-size: 18px;font-weight: bold;color: #000000;margin-top:22px;margin-bottom:39px;}
+p.margin1 {font-family: MicrosoftYaHei;font-size: 14px;line-height: 28px;color: #000000;margin-top:20px;text-indent:2em;}
+
+.conf-report {padding-top:42px;}
+.report-tit {font-family: MicrosoftYaHei;text-align:center;color: #000000;}
+.report-tit.tit1 {font-size: 18px;font-weight: bold;}
+.report-tit.tit2 {font-size: 16px;margin-top:26px;}
+.report-tit.tit3 {font-size: 14px;margin-top:16px;}
+p.margin2 {font-family: MicrosoftYaHei;font-size: 14px;line-height: 28px;color: #000000;margin-top:56px;}
+p.margin3 {font-family: MicrosoftYaHei;font-size: 16px;font-weight: bold;color: #000000;margin-top:21px;line-height: 32px;}
+p.margin4 {font-family: MicrosoftYaHei;font-size: 14px;color: #000000;line-height:28px;text-indent:2em;}
+/*=============== 历届党代会 end ==============*/
+
+/*=============== 党史人物 start ==============*/
+#figure-banner {height:880px;}
+.section-figure {width:100%; height:600px; background:url("../images/bg-sp.png") no-repeat center 0px;
+				background-size:100% 100%;padding-top:20px;}
+
+.section-figure .lf-menu-tabs i {margin-right:10px;}
+.figure-subs li {width: 222px;height: 49px;background-color: #f2f2f2;text-align:left;padding-left:13px;margin-bottom:1px;}
+.figure-subs a {display:inline-block; width:100%;height:100%;}
+.figure-subs span {font-family: MicrosoftYaHei;font-size: 14px;line-height:49px;color: #000000;}
+.figure-subs i {display:block; width:17px; height:16px; float:right;background:url("../images/bg-col2.png") no-repeat center;
+				margin-top:16px;margin-right:10px;}
+
+.figure-subs li:hover, .figure-subs li.cur {background-color:#fcdadb;}
+.figure-subs li:hover span, .figure-subs li.cur span {color:#c83d2c;font-weight:bold;}
+.figure-subs li:hover i, .figure-subs li.cur i {background:url("../images/bg-col.png") no-repeat center;}
+
+.figure-subs {display:none;}
+.figure-sub-con {display:none;}
+.figure-sub-con.active {display:block;}
+.lf-menu-tabs i.toggle-icon {display:inline-block; width:12px; height:8px; background:url("../images/toggle-1.png") no-repeat center;margin-right:6px;float:left;margin-top:19px;}
+.lf-menu-tabs li:hover .toggle-icon, .lf-menu-tabs li.cur .toggle-icon {background:url("../images/toggle-2.png") no-repeat center;}
+/*.toggle.unfold .figure-subs {display:block;}*/
+
+.result {margin-top:10px;}
+.fg-row {float:left;}
+.fg-row.left {margin-right:10px;}
+.fg-pic {width: 209px;height: 150px;border-radius: 10px;overflow: hidden;}
+.fg-row p {text-align:center;line-height:32px;font-family: MicrosoftYaHei;font-size: 16px;
+			margin-top:10px;margin-bottom:10px; color:#000;}
+.fg-row a:hover p {color:#c61e1a;}
+.pagination {text-align:center; margin-top:52px;}
+.pagination a {
+    text-decoration: none;
+	border-radius: 5px;
+	border: solid 1px #bcc0c5;
+	color: #000000;
+	font-family: MicrosoftYaHei;
+	font-size: 15px;
+}
+.pagination a, .pagination span {
+    display: inline-block;
+    padding:8px 15px;
+    margin-right: 5px;
+	margin-bottom: 5px;
+}
+.pagination .current {
+    background: #c63e2c;
+    border-radius: 5px;
+	border: solid 1px #bcc0c5;
+	color: #fff;
+}
+.pagination .current.prev, .pagination .current.next{
+	color:#999;
+	border-radius: 5px;
+	border: solid 1px #bcc0c5;
+	background:#fff;
+}
+
+#figure-dt-banner {height:1005px;}
+.section-figure-dt {width:100%; height:722px; background:url("../images/bg-sp.png") no-repeat center 0px;
+				background-size:100% 100%;padding-top:20px;}
+.figure-con1 {width: 1110px;height: 253px; margin:0 auto;box-shadow: 0px 3px 4px 0px 
+		rgba(0, 0, 0, 0.08); background-color:#fff;}
+.figure-pic1 {float:left; width: 173px;height: 124px;margin-left:45px; margin-top:25px;}
+.figure-pic1 img {width:100%; height:100%;}
+.figure-pic1 p {font-family: MicrosoftYaHei;font-size: 16px;line-height: 23px;color: #000000;
+				text-align:center; margin-top:10px;}
+.figure-box1 {width:823px; float:left; margin-left:40px;margin-top:6px;}
+.figure-tit {text-align:center; font-family: MicrosoftYaHei;font-size: 18px;font-weight: bold;
+			line-height: 23px;letter-spacing: 1px;color: #ca3825;
+			margin-bottom:23px;}
+.margin-f {font-family: MicrosoftYaHei;font-size: 14px;line-height:26px;color: #000000;
+			text-indent:2em;}
+.figure-refer {width: 1110px; height: 354px; margin:25px auto 0px auto;box-shadow: 0px 3px 4px 0px 
+		rgba(0, 0, 0, 0.08);background-color:#fff;}
+
+/*=============== 党史人物 end ==============*/
+
+/*==================== 二级页面主要内容 end ================*/
 .tpl-footer{ height: 384px;background: #f6e9d8 url('../images/footer-bg.png') center 0 no-repeat;}
 .tpl-footer .wrap { padding-top: 240px; }
 .tpl-footer p{ line-height: 38px;font-size: 18px;color:#fff;text-align:center;}
