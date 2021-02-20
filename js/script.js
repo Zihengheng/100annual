@@ -7,7 +7,24 @@ $(function(){
     tabFunc(".event-con", ".event-tab li", "cur", ".event-intro", "active", "mousedown");
     //指导思想tab
     tabFunc(".guide-con", ".guide-tabs li", "cur", ".guide-intro", "active", "mousedown");
-   
+
+
+    //二级页面
+    //宝贵经验tab
+    tabFunc(".section-con", ".lf-menu-tabs li", "cur", ".menu-tab-con", "active", "mousedown");
+    
+    //二级页面
+    //党代会tab
+    tabFunc(".section-con", "#subtab1 li", "cur", ".subtab1", "active", "mousedown");
+    tabFunc(".section-con", "#subtab2 li", "cur", ".subtab2", "active", "mousedown");
+
+    //二级页面
+    //党史人物tab
+    tabFunc(".section-con", ".figure-subs li", "cur", ".figure-sub-con", "active", "mousedown");
+
+    //二级页面
+    //党史人物分页
+    // setPagination(pagiDom,hiddenRstDom,shRstDom);
 
     //轮播
     var videoScroll1 = new LScroll();
@@ -38,12 +55,50 @@ $(function(){
     $(" .ach-gor").click(function () { videoScroll4.next(); });
     videoScroll4.tabmarq(0, 0, 1);
 
+    var videoScroll5 = new LScroll();
+    videoScroll5.dom = $(".guide-slides .g-slides");
+    videoScroll5.speed = 5000;
+    $(" .guide-slide-btns .gleft").click(function () { videoScroll5.prev(); });
+    $(" .guide-slide-btns .gright").click(function () { videoScroll5.next(); });
+    videoScroll5.tabmarq(0, 0, 1);
+
     placeholderFunc();//placeholder 兼容ie低版本
 
+    //二级页面
+    //党代会伸缩tab
+    $(".section-conf .conf-menu-tabs dd div").click(function(){
+        if ($(this).parent().hasClass("unfold")){
+            $(this).parent().removeClass("unfold");
+            $(".subtab-con").removeClass("active");
+        }
+        else{
+            $(this).parent().addClass("unfold");
+            $(this).parent().siblings().removeClass("unfold");
+             $(".subtab-con").removeClass("active");
+        }
+    });
 
+    //二级页面
+    //党史人物伸缩
+    $(".section-figure .toggle div").click(function(){
+        if($(this).hasClass("unfold")){
+            $(this).removeClass("unfold");
+            $(".figure-subs").hide();
+        }
+        else{
+            $(this).addClass("unfold");
+            $(".figure-subs li").first().addClass("cur");
+            $(".figure-subs").show();
+        }
+    })
+    $(".section-figure .lf-menu-tabs li").not(".toggle").click(function(){
+        $("section-figure .toggle").removeClass("unfold");
+        $(".figure-subs").hide();
+        $(".figure-subs li").removeClass("cur");
+        $(".figure-sub-con").removeClass("active")
+    })
 
 });
-
 //placeholder 兼容
 function placeholderFunc(){
     // 如果不支持placeholder，用jQuery来完成
@@ -92,7 +147,7 @@ function placeholderFunc(){
                     }
                     index = $(this).index();
                     $(this).addClass(current).siblings().removeClass(current);
-                    _this.find(tabcont).removeClass(active).eq(index).addClass(active)
+                    _this.find(tabcont).removeClass(active).eq(index).addClass(active);
                 })
             })
   }
